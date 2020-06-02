@@ -1,0 +1,19 @@
+{
+  "name": "mern-jwt-auth",
+  "description": "Simple MERN application with JWT authentication system",
+  "author": "Andika Bahari",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "client-install": "npm install --prefix client",
+    "client-build": "npm run build --prefix client",
+    "server": "nodemon server.js --prefix server",
+    "server-install": "npm install --prefix server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
