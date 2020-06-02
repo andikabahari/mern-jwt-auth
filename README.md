@@ -9,7 +9,7 @@ Simple MERN App with JWT authentication system.
 Install dependencies for this application.
 
 ```
-npm intall
+npm install
 npm run client-install
 npm run server-install
 ```
