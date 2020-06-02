@@ -13,10 +13,9 @@
     "server-install": "npm install --prefix server",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "dependencies": {
-    "concurrently": "^5.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   }
 }
