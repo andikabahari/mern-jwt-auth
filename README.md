@@ -1,20 +1,16 @@
 # mern-jwt-auth
 
-Simple MERN App with JWT authentication system
+Simple MERN App with JWT authentication system.
 
 ## Usage
 
 ### Installation
 
-1. Install the **client** dependencies.
+Install dependencies for this application.
 
 ```
+npm intall
 npm run client-install
-```
-
-2. Install the **server** dependencies.
-
-```
 npm run server-install
 ```
 
