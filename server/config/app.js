@@ -19,5 +19,5 @@ module.exports = {
   views_path: path.join(__basepath, "app/views"),
 
   // Static files path
-  static_path: staticPath.client
+  static_path: staticPath.default
 };
