@@ -6,10 +6,9 @@ Simple MERN App with JWT authentication system.
 
 ### Installation
 
-Install dependencies for this application.
+Install the dependencies for this application using _yarn_ with these commands.
 
 ```
-npm install
 npm run client-install
 npm run server-install
 ```
