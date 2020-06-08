@@ -35,7 +35,7 @@ npm run client-build
 
 2. Change the static files path to this configuration.
 
-```
+```javascript
 // File location: <your_project_directory>/server/config/app.js
 // Static files path
 static_path: staticPath.client
